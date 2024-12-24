@@ -10,8 +10,6 @@ function addtask(){
     li.innerHTML = inputBox.value;
     listContainer.appendChild(li);
     let span = document.createElement('span');
-    span.setAttribute('onclick','deleteTask()')
-    span.setAttribute('id','delete')
     span.innerHTML = '\u00d7';
     li.appendChild(span);
   }
